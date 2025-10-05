@@ -26,8 +26,7 @@ class MainActivity : AppCompatActivity() {
 
   private fun loadContatos() {
     val dao = ContatoDao(this)
-//    val contatos = dao.listarContatos()
-    val contatos = fakeContatos()
+    val contatos = dao.listarContatos()
     val adapter = ContatoAdapter(contatos, this)
     val lvContatos = findViewById<ListView>(R.id.lvContatos)
 

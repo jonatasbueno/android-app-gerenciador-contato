@@ -34,13 +34,13 @@ class ContatoDao {
     )
 
     if (cursor.moveToFirst()) {
-      while (!cursor.isAfterLast) {
-        val id = cursor.getInt(0).toString()
+      do {
+        val id = cursor.getString(0)
         val name = cursor.getString(1)
-
         val contato = Contato(id, name)
+        
         contatos.add(contato)
-      }
+      } while (cursor.moveToNext())
     }
 
     cursor.close()

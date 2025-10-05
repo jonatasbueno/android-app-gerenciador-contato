@@ -31,7 +31,7 @@ class DbHelper(context: Context) : SQLiteOpenHelper(
     oldVersion: Int,
     newVersion: Int
   ) {
-    TODO("Not yet implemented")
+
   }
 
 }

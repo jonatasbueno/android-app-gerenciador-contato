@@ -1,4 +1,7 @@
 <resources>
   <string name="app_name">Contatos</string>
   <string name="meus_contatos">Meus Contatos</string>
+  <string name="cadastro">Cadastro</string>
+  <string name="cadastrar">Cadastrar</string>
+  <string name="digite_o_nome">Digite o nome</string>
 </resources>
