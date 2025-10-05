@@ -11,7 +11,7 @@ import com.example.contatos.model.Contato
 
 
 class ContatoAdapter(
-  val contatos: MutableList<Contato> = mutableListOf<Contato>(),
+  val contatos: List<Contato> = mutableListOf<Contato>(),
   val activity: Activity = Activity()
 ) : BaseAdapter() {
 

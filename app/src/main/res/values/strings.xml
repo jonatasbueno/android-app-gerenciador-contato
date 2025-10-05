@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Contatos</string>
+  <string name="app_name">Contatos</string>
+  <string name="meus_contatos">Meus Contatos</string>
 </resources>
